@@ -1,0 +1,11 @@
+
+models:
+  - name: stg_erp__localidades
+    description: Tabela com a localidade e uf correspondente.
+    columns:
+      - name: pk_localidade
+        description: chave primária da localidade.
+      - name: cidade
+        description: nome da cidade.
+      - name: uf
+        description: estado referente a cidade.
